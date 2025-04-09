@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light {
+  background-color: #f1f2f6;
+  color: #2f3542;
+}
+
+body.dark {
+  background-color: #2f3542;
+  color: #f1f2f6;
+}
